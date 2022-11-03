@@ -2,7 +2,7 @@
   "homepage": "http://onsyveri.github.io/the-boys",
   "name": "the-boys",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@headlessui/react": "^1.7.3",
     "@heroicons/react": "^2.0.12",
