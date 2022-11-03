@@ -37,7 +37,7 @@ const ProfileView = () => {
              </CardBody>
              <CardFooter className="flex justify-center gap-7 pt-2">
                 <button id="readBtn" type="button" className="text-white bg-indigo-400 hover:bg-indigo-300 focus:outline-none focus:ring-4 focus:ring-indigo-200 font-medium rounded-full text-sm px-5 py-2.5 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">
-                    <NavLink to={"/the-boys/profile?id=" + id}>Read More</NavLink>
+                    <NavLink to={"/profile?id=" + id}>Read More</NavLink>
                 </button>
              </CardFooter>
            </Card>

@@ -10,12 +10,12 @@ import Profile from './views/Profile';
 function App() {
   return (
       <>
-        <BrowserRouter>
+        <BrowserRouter basename="/the-boys">
           <Navbar />
           <Routes>
-              <Route path="/the-boys/" element={<HomePage />} />
-              <Route path="/the-boys/members" element={<MembersPage />} />
-              <Route path="/the-boys/profile" element={<Profile />} />
+              <Route exact path="/" element={<HomePage />} />
+              <Route path="/members" element={<MembersPage />} />
+              <Route path="/profile" element={<Profile />} />
           </Routes>
         </BrowserRouter>
       </>
