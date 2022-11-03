@@ -21,6 +21,11 @@ nav {
   border: 2px solid #7289da;
 }
 
+#logo {
+  width: 50px;
+  left: 0;
+}
+
 
 /* Members */
 #profGrid {

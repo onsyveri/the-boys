@@ -33,13 +33,8 @@ const Navbar = () => {
                   <div className="flex flex-shrink-0 items-center">
                     {/* 
                     <img
-                      className="block h-8 w-auto lg:hidden"
-                      src="#"
-                      alt="Your Company"
-                    />
-                    <img
-                      className="hidden h-8 w-auto lg:block"
-                      src="#"
+                      id="logo"
+                      src="https://www.freeiconspng.com/uploads/pepe-transparent-png-13.png"
                       alt="Your Company"
                     />
                     */}
