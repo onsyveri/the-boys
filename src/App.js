@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './components/navbar/Navbar';
-import {BrowserRouter, Route, Routes } from "react-router-dom";
+import {Route, Routes } from "react-router-dom";
 import HomePage from './views/HomePage';
 import MembersPage from './views/MembersPage';
 import Profile from './views/Profile';
@@ -10,14 +10,12 @@ import Profile from './views/Profile';
 function App() {
   return (
       <>
-        <BrowserRouter basename="/the-boys">
           <Navbar />
           <Routes>
               <Route exact path="/" element={<HomePage />} />
-              <Route path="/members" element={<MembersPage />} />
-              <Route path="/profile" element={<Profile />} />
+              <Route exact path="/members" element={<MembersPage />} />
+              <Route exact path="/profile" element={<Profile />} />
           </Routes>
-        </BrowserRouter>
       </>
   );
 }
