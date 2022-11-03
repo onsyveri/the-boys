@@ -28,7 +28,7 @@ export const profiles = [
     {id: 8, name: 'Sighaa', role: 'Smart', image: 'https://media3.giphy.com/media/3pTtbLJ7Jd0YM/giphy.gif?cid=790b7611c37c59293bb819474bc4952612e9937402e1b0bf&rid=giphy.gif&ct=g',
      description: 'Is always right and everyone knows it'},
     {id: 9, name: 'Bjørn', role: 'Philosopher', image: 'https://media0.giphy.com/media/NgsF4XElEeinS/giphy.gif?cid=ecf05e47o646noj8atafioqw9dy6t6k476jp98p7xam34igo&rid=giphy.gif&ct=g',
-     description: 'Asks the questions you do not care about. Also a undisputed Talia prodigy'},
+     description: 'Asks the questions you do not care about. Also a undisputed Taliyah prodigy'},
     {id: 10, name: 'Typhex', role: 'Jungler', image: 'https://media2.giphy.com/media/ayMW3eqvuP00o/giphy.gif?cid=ecf05e4715g1gzp1zbxi6vrdb7ozjugmiinpbzohqzhn2358&rid=giphy.gif&ct=g',
      description: 'Has been banned more then you can count. Asks questions you do not know the answer to'},
 ]
