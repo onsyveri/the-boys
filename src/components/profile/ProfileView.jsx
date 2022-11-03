@@ -9,7 +9,7 @@ import {
 import { NavLink } from 'react-router-dom';
 
 export const profiles = [
-    {id: 0, name: 'BenjBJar', role: 'CEO', image: 'https://media.tenor.com/6EUQjvG-IrQAAAAC/ganon-ganondorf.gif',
+    {id: 0, name: 'BenjBjar', role: 'CEO', image: 'https://media.tenor.com/6EUQjvG-IrQAAAAC/ganon-ganondorf.gif',
      description: 'Used to be good at League of Legends, but old age has taken over sadly'},
     {id: 1, name: 'Shwarma Queen', role: 'Bomb Planter', image: 'https://media1.giphy.com/media/U3UP4fTE6QfuoooLaC/giphy.gif?cid=790b761120405ec0a71212bc059b081f34735ab76411c7e6&rid=giphy.gif&ct=g',
      description: 'Rank #1 Bomb Planter in CS:GO'},
@@ -25,6 +25,12 @@ export const profiles = [
      description: 'Operates a legal mushroom farm. Can solder everything'},
     {id: 7, name: 'Titow', role: 'Spydeberg Mob Boss', image: 'https://media.tenor.com/Wg1jbWqmB8IAAAAC/nicholas-brown.gif',
      description: 'If you are not careful, he will call his boys. Ageing rapidly'},
+    {id: 8, name: 'Sighaa', role: 'Smart', image: 'https://media3.giphy.com/media/3pTtbLJ7Jd0YM/giphy.gif?cid=790b7611c37c59293bb819474bc4952612e9937402e1b0bf&rid=giphy.gif&ct=g',
+     description: 'Is always right and everyone knows it'},
+    {id: 9, name: 'Bjørn', role: 'Philosopher', image: 'https://media0.giphy.com/media/NgsF4XElEeinS/giphy.gif?cid=ecf05e47o646noj8atafioqw9dy6t6k476jp98p7xam34igo&rid=giphy.gif&ct=g',
+     description: 'Asks the questions you do not care about. Also a undisputed Talia prodigy'},
+    {id: 10, name: 'Typhex', role: 'Jungler', image: 'https://media2.giphy.com/media/ayMW3eqvuP00o/giphy.gif?cid=ecf05e4715g1gzp1zbxi6vrdb7ozjugmiinpbzohqzhn2358&rid=giphy.gif&ct=g',
+     description: 'Has been banned more then you can count. Asks questions you do not know the answer to'},
 ]
    
 const ProfileView = () => {
