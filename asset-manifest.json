@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/the-boys/static/css/main.91c0c838.css",
-    "main.js": "/the-boys/static/js/main.31aeb836.js",
+    "main.js": "/the-boys/static/js/main.16b61afa.js",
     "static/js/787.e9df2b00.chunk.js": "/the-boys/static/js/787.e9df2b00.chunk.js",
     "index.html": "/the-boys/index.html",
     "main.91c0c838.css.map": "/the-boys/static/css/main.91c0c838.css.map",
-    "main.31aeb836.js.map": "/the-boys/static/js/main.31aeb836.js.map",
+    "main.16b61afa.js.map": "/the-boys/static/js/main.16b61afa.js.map",
     "787.e9df2b00.chunk.js.map": "/the-boys/static/js/787.e9df2b00.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.91c0c838.css",
-    "static/js/main.31aeb836.js"
+    "static/js/main.16b61afa.js"
   ]
 }
