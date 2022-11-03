@@ -17,6 +17,10 @@ export const profiles = [
      description: 'Spends hours on LinkedIn trying to grow his network to take over the world'},
     {id: 3, name: 'Pishva', role: 'Slimet', image: 'https://media3.giphy.com/media/Ngc1RhNgbu7LRSmCBA/giphy.gif?cid=ecf05e4710b6dd71fd20027e81c5326d88cbfdca91e56a77&rid=giphy.gif&ct=g',
      description: 'Used to be known as "Limet", but after some unfortunate events he now goes as "Slimet"'},
+    {id: 4, name: 'Schultzern', role: 'Mr. Worldwide / Dressman Model', image: 'https://media.tenor.com/4dt6GlT1KBMAAAAC/jojo-jjba.gif',
+     description: 'Known as most handsome man ever and forever. Can easily steal your girl'},
+    {id: 5, name: 'Ruen', role: 'Muffin Enjoyer', image: 'https://media.tenor.com/Dzj2OFaZVL4AAAAC/friday.gif',
+     description: 'Bad takes.'},
 ]
    
 const ProfileView = () => {
