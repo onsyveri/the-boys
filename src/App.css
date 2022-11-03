@@ -1,38 +1,112 @@
-.App {
+/* General */
+body {
+  background-color: #36393e;
+}
+
+/* Navbar */
+nav {
+  z-index:1;
+  background-color: #282b30;
+  padding: 25px;
+  position: sticky;
+  top: 0px;
+}
+
+#navH1 {
+  color: white;
+  background-color: #7289da;
+}
+
+#profilePic {
+  border: 2px solid #7289da;
+}
+
+
+/* Members */
+#profGrid {
+  margin: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  justify-items: center;
+  row-gap: 30px;
+}
+
+#profCard {
+  background-color: #424549;
+}
+
+#profRole {
+  color: #7289DA;
+}
+
+#readBtn {
+  padding: 0px;
+}
+
+#readBtn a{
+  display: block;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+svg {
+  margin: 0;
+}
+
+
+/* Homepage */
+#home {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+#homeImg, #homeImg2, #homeImg3 {
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px yellow;
+}
+
+#homeImg2 {
+  box-shadow: 0px 0px 30px #496BAB;
+}
+
+#homeImg3 {
+  box-shadow: 0px 0px 30px greenyellow;
+}
+
+/* Profile */
+#profMain {
+  background-color: #424549;
+  width: 90%;
+  margin: 50px auto;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+#detailPic {
+  margin: 0px auto;
+  border: 5px solid #7289DA;
+}
+
+#detailH1 {
+  color: white;
+  margin: 10px auto;
+  margin-bottom: 0px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+#detailRole {
+  margin-bottom: 20px;
+  color: #7289da;
+  font-weight: bold;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#detailDesc {
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  text-align: center;
 }
