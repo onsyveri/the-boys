@@ -9,11 +9,11 @@ import {
 import { NavLink } from 'react-router-dom';
 
 export const profiles = [
-    {id: 0, name: 'BenjBjar', role: 'CEO', image: 'https://media.tenor.com/ETtJihFiaOAAAAAd/one-piece-usopp.gif',
-     description: 'Used to be good at League of Legends, but old age has taken over sadly'},
+    {id: 0, name: 'BenjBjar', role: 'CEO / King', image: 'https://media.tenor.com/ETtJihFiaOAAAAAd/one-piece-usopp.gif',
+     description: 'The Creator of Tilt. Trying to find the One Piece'},
     {id: 1, name: 'Shwarma Queen', role: 'Bomb Planter', image: 'https://media1.giphy.com/media/U3UP4fTE6QfuoooLaC/giphy.gif?cid=790b761120405ec0a71212bc059b081f34735ab76411c7e6&rid=giphy.gif&ct=g',
-     description: 'Rank #1 Bomb Planter in CS:GO'},
-    {id: 2, name: 'Snoke', role: 'LinkedIn Tryhard', image: 'https://media1.giphy.com/media/hxCB1Qf11SrU4/giphy.gif?cid=ecf05e47wahmk7mdgwyed8rurap8np9tedxwueax5hhf58b5&rid=giphy.gif&ct=g',
+     description: 'Rank #1 Bomb Planter in CS:GO. Has a weird habit of sniffing stuff'},
+    {id: 2, name: 'Snoke', role: 'LinkedIn Tryhard', image: 'https://media2.giphy.com/media/ERc5g8ThElMQM/giphy.gif?cid=ecf05e47ylsvgujyhonswqyxljezl0fm8w12tcl7waexymr1&rid=giphy.gif&ct=g',
      description: 'Spends hours on LinkedIn trying to grow his network to take over the world'},
     {id: 3, name: 'Pishva', role: 'Slimet', image: 'https://media3.giphy.com/media/Ngc1RhNgbu7LRSmCBA/giphy.gif?cid=ecf05e4710b6dd71fd20027e81c5326d88cbfdca91e56a77&rid=giphy.gif&ct=g',
      description: 'Used to be known as "Limet", but after some unfortunate events he now goes as "Slimet"'},
@@ -29,7 +29,7 @@ export const profiles = [
      description: 'Is always right and everyone knows it'},
     {id: 9, name: 'Bjørn', role: 'Philosopher', image: 'https://media0.giphy.com/media/NgsF4XElEeinS/giphy.gif?cid=ecf05e47o646noj8atafioqw9dy6t6k476jp98p7xam34igo&rid=giphy.gif&ct=g',
      description: 'Asks the questions you do not care about. Also a undisputed Taliyah prodigy'},
-    {id: 10, name: 'Typhex', role: 'Jungler', image: 'https://media2.giphy.com/media/ayMW3eqvuP00o/giphy.gif?cid=ecf05e4715g1gzp1zbxi6vrdb7ozjugmiinpbzohqzhn2358&rid=giphy.gif&ct=g',
+    {id: 10, name: 'Typhex', role: 'Jungler', image: 'https://media.tenor.com/nDRHIQbzGz8AAAAC/dr-stone-tsukasa.gif',
      description: 'Has been banned more then you can count. Asks questions you do not know the answer to'},
     {id: 11, name: 'Emil', role: 'C*m', image: 'https://media.tenor.com/Twu9nxt3Jb0AAAAC/hisoka-hunter-x-hunter.gif',
      description: 'C*m.'},
@@ -39,6 +39,8 @@ export const profiles = [
      description: 'First of the MAGNU clones. Luck is in his DNA'},
     {id: 14, name: 'Sveflimag', role: 'Apocalypse Expert', image: 'https://media.tenor.com/XYMkH4QW_9AAAAAC/ginko-mushishi.gif',
      description: 'Second of the MAGNU clones. Hates everything unrealistic'},
+    {id: 15, name: 'Dr. Jake', role: 'Sussy Doctor', image: 'https://media2.giphy.com/media/H55l0bcEOOqWqlrNbt/giphy.gif?cid=ecf05e47tf3uslrjezjj4a5n94l8wh2j2lm4ngvrxdfsw697&rid=giphy.gif&ct=g',
+     description: 'Seems like a nice guy, but has been spotted crawling into vents before. Kinda suss'},
 ]
    
 const ProfileView = () => {
