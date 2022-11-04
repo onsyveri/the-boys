@@ -22,7 +22,7 @@ nav {
 }
 
 #logo {
-  width: 50px;
+  width: 150px;
   left: 0;
 }
 
@@ -192,7 +192,7 @@ svg {
   }
 
   #headerImg {
-    height: 170px;
+    height: 150px;
   }
 
 }
