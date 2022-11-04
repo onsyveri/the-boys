@@ -31,6 +31,14 @@ export const profiles = [
      description: 'Asks the questions you do not care about. Also a undisputed Taliyah prodigy'},
     {id: 10, name: 'Typhex', role: 'Jungler', image: 'https://media2.giphy.com/media/ayMW3eqvuP00o/giphy.gif?cid=ecf05e4715g1gzp1zbxi6vrdb7ozjugmiinpbzohqzhn2358&rid=giphy.gif&ct=g',
      description: 'Has been banned more then you can count. Asks questions you do not know the answer to'},
+    {id: 11, name: 'Emil', role: 'C*m', image: 'https://media.tenor.com/Twu9nxt3Jb0AAAAC/hisoka-hunter-x-hunter.gif',
+     description: 'C*m.'},
+    {id: 12, name: 'Sir. Fred', role: 'Cartographer', image: 'https://media.tenor.com/yprFslRjh_0AAAAC/bakemonogatari-araragi.gif',
+     description: 'Loves to play with maps. Is also a dark lord'},
+    {id: 13, name: 'Erlend', role: 'Meh', image: 'https://media.tenor.com/XYMkH4QW_9AAAAAC/ginko-mushishi.gif',
+     description: 'First of the MAGNU clones. Luck is in his DNA'},
+    {id: 14, name: 'Sveflimag', role: 'Apocalypse Expert', image: 'https://media.tenor.com/XYMkH4QW_9AAAAAC/ginko-mushishi.gif',
+     description: 'Second of the MAGNU clones. Hates everything unrealistic'},
 ]
    
 const ProfileView = () => {
@@ -39,7 +47,7 @@ const ProfileView = () => {
         {profiles.map(({id, name, role, image}) => (
              <Card className="w-96" id="profCard" key={id}>
              <CardHeader floated={false} className="h-48">
-               <img src={image} alt="profile pic" />
+               <img id={"gif" + id} src={image} alt="profile pic" />
              </CardHeader>
              <CardBody className="text-center">
                <Typography variant="h4" color="white" className="mb-2">

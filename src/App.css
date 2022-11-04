@@ -55,6 +55,11 @@ nav {
   padding-right: 20px;
 }
 
+#gif13 {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
 svg {
   margin: 0;
 }
@@ -66,11 +71,17 @@ svg {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
+#homeH1 {
+  text-align: center;
+  margin: 50px;
+  color: white;
+  font-size: 100px;
+}
+
 #homeImg, #homeImg2, #homeImg3 {
   margin: 0 auto;
   margin-top: 50px;
   border-radius: 10px;
-  box-shadow: 0px 0px 30px yellow;
 }
 
 #homeImg2 {
@@ -114,4 +125,38 @@ svg {
 #detailDesc {
   color: white;
   text-align: center;
+}
+
+#backBtn {
+  padding: 0px;
+}
+
+#backBtn a{
+  display: block;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+
+/* Scrollbar ------------------------------------------------------ */
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #424549; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #7289da; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #869adf;
 }
