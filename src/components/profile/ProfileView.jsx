@@ -9,7 +9,7 @@ import {
 import { NavLink } from 'react-router-dom';
 
 export const profiles = [
-    {id: 0, name: 'BenjBjar', role: 'CEO', image: 'https://media.tenor.com/6EUQjvG-IrQAAAAC/ganon-ganondorf.gif',
+    {id: 0, name: 'BenjBjar', role: 'CEO', image: 'https://media.tenor.com/ETtJihFiaOAAAAAd/one-piece-usopp.gif',
      description: 'Used to be good at League of Legends, but old age has taken over sadly'},
     {id: 1, name: 'Shwarma Queen', role: 'Bomb Planter', image: 'https://media1.giphy.com/media/U3UP4fTE6QfuoooLaC/giphy.gif?cid=790b761120405ec0a71212bc059b081f34735ab76411c7e6&rid=giphy.gif&ct=g',
      description: 'Rank #1 Bomb Planter in CS:GO'},
@@ -46,7 +46,7 @@ const ProfileView = () => {
         <>
         {profiles.map(({id, name, role, image}) => (
              <Card className="w-96" id="profCard" key={id}>
-             <CardHeader floated={false} className="h-48">
+             <CardHeader id="headerImg" floated={false} className="h-48">
                <img id={"gif" + id} src={image} alt="profile pic" />
              </CardHeader>
              <CardBody className="text-center">

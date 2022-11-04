@@ -160,3 +160,28 @@ svg {
 ::-webkit-scrollbar-thumb:hover {
   background: #869adf;
 }
+
+
+/* Responsive design ----------------------------------------------- */
+@media only screen and (max-width: 500px) {
+
+  #profGrid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  
+  #profCard {
+    background-color: #424549;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  
+  #profCard {
+    width: 100%;
+  }
+
+  #headerImg {
+    height: 125px;
+  }
+
+}
