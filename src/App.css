@@ -175,6 +175,10 @@ svg {
   #profCard {
     background-color: #424549;
   }
+  #detailPic {
+    width: 150px;
+    height: 150px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
@@ -188,7 +192,7 @@ svg {
   }
 
   #headerImg {
-    height: 180px;
+    height: 170px;
   }
 
 }
