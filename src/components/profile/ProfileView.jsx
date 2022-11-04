@@ -39,7 +39,9 @@ export const profiles = [
      description: 'First of the MAGNU clones. Luck is in his DNA'},
     {id: 14, name: 'Sveflimag', role: 'Apocalypse Expert', image: 'https://media.tenor.com/XYMkH4QW_9AAAAAC/ginko-mushishi.gif',
      description: 'Second of the MAGNU clones. Hates everything unrealistic'},
-    {id: 15, name: 'Dr. Jake', role: 'Sussy Doctor', image: 'https://media2.giphy.com/media/H55l0bcEOOqWqlrNbt/giphy.gif?cid=ecf05e47tf3uslrjezjj4a5n94l8wh2j2lm4ngvrxdfsw697&rid=giphy.gif&ct=g',
+     {id: 15, name: 'Oskarsen', role: 'Hunter', image: 'https://media.tenor.com/TI9Skt7G3dIAAAAC/lupin-the-third-lupin-iii.gif',
+     description: 'Will shoot your pet if it looks like an ugly fox. Nice guy'},
+    {id: 16, name: 'Dr. Jake', role: 'Sussy Doctor', image: 'https://media2.giphy.com/media/H55l0bcEOOqWqlrNbt/giphy.gif?cid=ecf05e47tf3uslrjezjj4a5n94l8wh2j2lm4ngvrxdfsw697&rid=giphy.gif&ct=g',
      description: 'Seems like a nice guy, but has been spotted crawling into vents before. Kinda suss'},
 ]
    
