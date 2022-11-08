@@ -37,7 +37,7 @@ export const profiles = [
      description: 'Loves to play with maps. Is also a dark lord'},
     {id: 13, name: 'Erlend', role: 'Meh', image: 'https://media.tenor.com/XYMkH4QW_9AAAAAC/ginko-mushishi.gif',
      description: 'First of the MAGNU clones. Luck is in his DNA'},
-    {id: 14, name: 'Sveflimag', role: 'Apocalypse Expert', image: 'https://media.tenor.com/XYMkH4QW_9AAAAAC/ginko-mushishi.gif',
+    {id: 14, name: 'Sveinung', role: 'Apocalypse Expert', image: 'https://media.tenor.com/XYMkH4QW_9AAAAAC/ginko-mushishi.gif',
      description: 'Second of the MAGNU clones. Hates everything unrealistic'},
      {id: 15, name: 'Oskarsen', role: 'Hunter', image: 'https://media.tenor.com/TI9Skt7G3dIAAAAC/lupin-the-third-lupin-iii.gif',
      description: 'Will shoot your pet if it looks like an ugly fox. Nice guy'},

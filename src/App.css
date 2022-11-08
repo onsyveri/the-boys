@@ -128,11 +128,6 @@ svg {
 }
 
 #backBtn {
-  padding: 0px;
-}
-
-#backBtn a{
-  display: block;
   padding: 10px;
   padding-left: 40px;
   padding-right: 40px;
