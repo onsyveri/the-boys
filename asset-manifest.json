@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/the-boys/static/css/main.46586fae.css",
-    "main.js": "/the-boys/static/js/main.bde45c82.js",
+    "main.css": "/the-boys/static/css/main.7d455d86.css",
+    "main.js": "/the-boys/static/js/main.35c187df.js",
     "static/js/787.e9df2b00.chunk.js": "/the-boys/static/js/787.e9df2b00.chunk.js",
     "static/media/pngegg.png": "/the-boys/static/media/pngegg.280065d48f41a5f78778.png",
     "static/media/yuno-peek.png": "/the-boys/static/media/yuno-peek.9b8b22215787a15403ed.png",
     "index.html": "/the-boys/index.html",
-    "main.46586fae.css.map": "/the-boys/static/css/main.46586fae.css.map",
-    "main.bde45c82.js.map": "/the-boys/static/js/main.bde45c82.js.map",
+    "main.7d455d86.css.map": "/the-boys/static/css/main.7d455d86.css.map",
+    "main.35c187df.js.map": "/the-boys/static/js/main.35c187df.js.map",
     "787.e9df2b00.chunk.js.map": "/the-boys/static/js/787.e9df2b00.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.46586fae.css",
-    "static/js/main.bde45c82.js"
+    "static/css/main.7d455d86.css",
+    "static/js/main.35c187df.js"
   ]
 }
