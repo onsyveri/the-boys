@@ -181,19 +181,15 @@ svg {
   font-weight: bolder;
 }
 
-#pepeCalm {
-  height: 300px;
-}
-
-#pepeSlav {
-  height: 300px;
+#pepeCalm, #pepeSlav {
+  height: 400px;
 }
 
 #art1 {
   display: flex;
   justify-content: flex-start;
   gap: 10px;
-  margin-left: 50px;
+  margin-left: 200px;
 }
 
 #art1 p {
@@ -203,7 +199,7 @@ svg {
 #art2 {
   display: flex;
   justify-content: flex-end;
-  margin-right: 50px;
+  margin-right: 200px;
   text-align: right;
   margin-bottom: 40px;
   gap: 10px;
@@ -239,6 +235,21 @@ svg {
 
 
 /* Responsive design ----------------------------------------------- */
+@media only screen and (max-width: 1000px) {
+  #art1 {
+    margin-left: 50px;
+  }
+  #art2 {
+    margin-right: 50px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #pepeCalm, #pepeSlav {
+    height: 300px;
+  }
+}
+
 @media only screen and (max-width: 560px) {
   #pepeSlav {
     height: 200px;
@@ -315,5 +326,19 @@ svg {
   #headerImg {
     height: 150px;
   }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+  #art1 h1 {
+    font-size: 18px;
+  }
+  #art2 h1 {
+    font-size: 18px;
+  }
+  #art1 p, #art2 p {
+    font-size: 11px;
+  } 
 
 }
