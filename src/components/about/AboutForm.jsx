@@ -10,25 +10,27 @@ const AboutForm = () => {
             </section>
 
             <section id="sect2">
-
-                <article id="art2">
-                    <div>
-                        <h1>The Party Boys</h1>
-                        <p>
-                            These people love to party and drink. They keep asking themselves why they are still in Discord. For some reason they always comes back.
-                        </p>
-                    </div>
-                    <img id="pepeSlav" src={pepeSlav} alt="Pepe-Slav" />
-                </article>
-
                 <article id="art1">
                     <img id="pepeCalm" src={pepeCalm} alt="Pepe-Calm" />
                     <div>
                         <h1>The Tilters</h1>
                         <p>
-                            These guys have a short fuse. With their passion for gaming and high competitive instinct they are not far away from smashing their desk, or even worse...
+                            These guys have a short fuse. With their passion for gaming and high competitive instinct they are not far away from smashing their desk, or worse...
                         </p>
                     </div>
+                </article>
+            </section>
+
+            <section id="sect3">
+
+                <article id="art2">
+                    <div>
+                        <h1>The Party Boys</h1>
+                        <p>
+                            These people love to party and drink. They keep asking themselves why they are still in Discord. For some reason they always come back.
+                        </p>
+                    </div>
+                    <img id="pepeSlav" src={pepeSlav} alt="Pepe-Slav" />
                 </article>
 
             </section>

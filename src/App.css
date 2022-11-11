@@ -171,12 +171,19 @@ svg {
 
 #sect2 {
   color: white;
-  background: #424549;
+  background: #36393e;
   padding: 50px;
   padding-bottom: 0;
 }
 
-#sect2 h1 {
+#sect3 {
+  color: white;
+  background: #424549;
+  padding: 40px;
+  padding-bottom: 10px;
+}
+
+#sect2 h1, #sect3 h1 {
   font-size: 40px;
   font-weight: bolder;
 }
