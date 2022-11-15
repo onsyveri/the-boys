@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/the-boys/static/css/main.c9fecdbf.css",
-    "main.js": "/the-boys/static/js/main.67bce493.js",
+    "main.css": "/the-boys/static/css/main.36f1ec24.css",
+    "main.js": "/the-boys/static/js/main.42381717.js",
     "static/js/787.e9df2b00.chunk.js": "/the-boys/static/js/787.e9df2b00.chunk.js",
     "static/media/ole-penta.mp4": "/the-boys/static/media/ole-penta.3b988e58ee47ff8d544d.mp4",
     "static/media/pngegg.png": "/the-boys/static/media/pngegg.280065d48f41a5f78778.png",
@@ -9,12 +9,12 @@
     "static/media/yuno-peek.png": "/the-boys/static/media/yuno-peek.9b8b22215787a15403ed.png",
     "static/media/pepe-slav.png": "/the-boys/static/media/pepe-slav.fce625d59f55574214da.png",
     "index.html": "/the-boys/index.html",
-    "main.c9fecdbf.css.map": "/the-boys/static/css/main.c9fecdbf.css.map",
-    "main.67bce493.js.map": "/the-boys/static/js/main.67bce493.js.map",
+    "main.36f1ec24.css.map": "/the-boys/static/css/main.36f1ec24.css.map",
+    "main.42381717.js.map": "/the-boys/static/js/main.42381717.js.map",
     "787.e9df2b00.chunk.js.map": "/the-boys/static/js/787.e9df2b00.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9fecdbf.css",
-    "static/js/main.67bce493.js"
+    "static/css/main.36f1ec24.css",
+    "static/js/main.42381717.js"
   ]
 }
