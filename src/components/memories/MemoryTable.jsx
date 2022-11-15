@@ -4,7 +4,7 @@ import penta from '../../images/ole-penta.mp4'
 const MemoryTable = () => {
 
     return (
-        <>
+        <div id="memTable">
             <Collapsible trigger="Shwarma Queen's Pentakill" >
             <video id="memVideo" controls>
                 <source src={penta} type="video/mp4" />
@@ -33,11 +33,11 @@ const MemoryTable = () => {
             <Collapsible trigger="League Despair">
             </Collapsible>
 
-            <Collapsible trigger="The Zeus Accident">
+            <Collapsible trigger="The Zeus Incident">
                 <img id="memImage" src="https://media.tenor.com/UVcnoJugdCwAAAAd/eren-grisha.gif" alt="zeus meme" />
                 <div id="memContent">
                 <h1 id="memH1">
-                    The Zeus Accident
+                    The Zeus Incident
                 </h1>
                 <p id="memDesc">
                     The Boys where on their way to stomp some kids in CS:GO. 
@@ -57,7 +57,7 @@ const MemoryTable = () => {
                 </div>
             </div>
             </Collapsible>
-        </>
+        </div>
     )
 }
 

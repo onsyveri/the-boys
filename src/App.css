@@ -218,6 +218,10 @@ svg {
 }
 
 /* Memories ------------------------------------------------------- */
+#memTable {
+  padding-bottom: 50px;
+}
+
 #memVideo, #memImage {
   border: 4px solid #7289DA;
   border-radius: 10px;
@@ -366,12 +370,18 @@ td:last-child {
 }
 
 @media only screen and (max-width: 800px) {
+  .Collapsible {
+    width: 95%;
+  }
   .Collapsible__contentInner {
     display: grid;
     grid-template-columns: 1fr;
   }
   #memVideo, #memImage {
     max-width: 100%;
+  }
+  #memH1 {
+    font-size: 30px;
   }
 }
 
