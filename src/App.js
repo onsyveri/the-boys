@@ -5,6 +5,7 @@ import HomePage from './views/HomePage';
 import MembersPage from './views/MembersPage';
 import Profile from './views/Profile';
 import About from './views/About';
+import MemoryPage from './views/MemoryPage';
 
 
 
@@ -15,6 +16,7 @@ function App() {
           <Routes>
               <Route exact path="/" element={<HomePage />} />
               <Route exact path="/members" element={<MembersPage />} />
+              <Route exact path="/memories" element={<MemoryPage />} />
               <Route exact path="/profile" element={<Profile />} />
               <Route exact path="/about" element={<About />} />
           </Routes>
