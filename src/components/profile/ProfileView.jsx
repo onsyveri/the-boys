@@ -16,7 +16,7 @@ export const profiles = [
     {id: 2, name: 'Snoke', role: 'LinkedIn Tryhard', image: 'https://media2.giphy.com/media/ERc5g8ThElMQM/giphy.gif?cid=ecf05e47ylsvgujyhonswqyxljezl0fm8w12tcl7waexymr1&rid=giphy.gif&ct=g',
      description: 'Spends hours on LinkedIn trying to grow his network to take over the world'},
     {id: 3, name: 'Pishva', role: 'Slimet', image: 'https://media.tenor.com/tPkh9euN9e4AAAAC/itachi-uchiha-naruto.gif',
-     description: 'Used to be known as "Limet", but after some unfortunate events he now goes as "Slimet"'},
+     description: 'Used to be known as "Limet", but after some unfortunate events he now goes as "Slimet". Can make women pregnant just by looking at them'},
     {id: 4, name: 'Schultzern', role: 'Mr. Worldwide / Dressman Model', image: 'https://media.tenor.com/4dt6GlT1KBMAAAAC/jojo-jjba.gif',
      description: 'Known as most handsome man ever and forever. Can easily steal your girl'},
     {id: 5, name: 'Ruen', role: 'Muffin Enjoyer', image: 'https://media.tenor.com/Dzj2OFaZVL4AAAAC/friday.gif',
