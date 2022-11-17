@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/the-boys/static/css/main.36f1ec24.css",
-    "main.js": "/the-boys/static/js/main.42381717.js",
+    "main.css": "/the-boys/static/css/main.923091e8.css",
+    "main.js": "/the-boys/static/js/main.0889ec55.js",
     "static/js/787.e9df2b00.chunk.js": "/the-boys/static/js/787.e9df2b00.chunk.js",
     "static/media/ole-penta.mp4": "/the-boys/static/media/ole-penta.3b988e58ee47ff8d544d.mp4",
+    "static/media/schultz-zeus.png": "/the-boys/static/media/schultz-zeus.ea59d81b922a11d5daa3.png",
+    "static/media/viktor-despair.png": "/the-boys/static/media/viktor-despair.d46b23057d1c70ecc63f.png",
     "static/media/pngegg.png": "/the-boys/static/media/pngegg.280065d48f41a5f78778.png",
     "static/media/pepe-calm.png": "/the-boys/static/media/pepe-calm.372df7c819ccce148588.png",
+    "static/media/the-plan.png": "/the-boys/static/media/the-plan.bd1deafde31765a04b01.png",
     "static/media/yuno-peek.png": "/the-boys/static/media/yuno-peek.9b8b22215787a15403ed.png",
+    "static/media/peaky-blinders.png": "/the-boys/static/media/peaky-blinders.b9ad4e09c73e9a72560a.png",
     "static/media/pepe-slav.png": "/the-boys/static/media/pepe-slav.fce625d59f55574214da.png",
     "index.html": "/the-boys/index.html",
-    "main.36f1ec24.css.map": "/the-boys/static/css/main.36f1ec24.css.map",
-    "main.42381717.js.map": "/the-boys/static/js/main.42381717.js.map",
+    "main.923091e8.css.map": "/the-boys/static/css/main.923091e8.css.map",
+    "main.0889ec55.js.map": "/the-boys/static/js/main.0889ec55.js.map",
     "787.e9df2b00.chunk.js.map": "/the-boys/static/js/787.e9df2b00.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.36f1ec24.css",
-    "static/js/main.42381717.js"
+    "static/css/main.923091e8.css",
+    "static/js/main.0889ec55.js"
   ]
 }
