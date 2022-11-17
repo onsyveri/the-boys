@@ -96,7 +96,7 @@ const MemoryTable = () => {
                     <div id="memProfiles"  className="flex mb-5 -space-x-4">
                         <img className="w-10 h-10 rounded-full border-2 border-indigo-300 dark:border-gray-800" src="https://media1.giphy.com/media/U3UP4fTE6QfuoooLaC/giphy.gif?cid=790b761120405ec0a71212bc059b081f34735ab76411c7e6&rid=giphy.gif&ct=g" alt="gif" />
                         <img className="w-10 h-10 rounded-full border-2 border-indigo-300 dark:border-gray-800" src="https://media2.giphy.com/media/ERc5g8ThElMQM/giphy.gif?cid=ecf05e47ylsvgujyhonswqyxljezl0fm8w12tcl7waexymr1&rid=giphy.gif&ct=g" alt="gif" />
-                        <img className="w-10 h-10 rounded-full border-2 border-indigo-300 dark:border-gray-800" src="https://media.tenor.com/tPkh9euN9e4AAAAC/itachi-uchiha-naruto.gif" alt="gif" />
+                        <img className="w-10 h-10 rounded-full border-2 border-indigo-300 dark:border-gray-800" src="https://media2.giphy.com/media/H55l0bcEOOqWqlrNbt/giphy.gif?cid=ecf05e47tf3uslrjezjj4a5n94l8wh2j2lm4ngvrxdfsw697&rid=giphy.gif&ct=g" alt="gif" />
                         <img className="w-10 h-10 rounded-full border-2 border-indigo-300 dark:border-gray-800" src="https://media.tenor.com/4dt6GlT1KBMAAAAC/jojo-jjba.gif" alt="gif" />
                         <p className="flex justify-center items-center w-10 h-10 text-xs font-medium text-white bg-gray-700 rounded-full border-2 border-indigo-300 dark:border-gray-800">+1</p>
                     </div> 
