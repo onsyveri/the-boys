@@ -1,9 +1,9 @@
 import Collapsible from 'react-collapsible';
-import penta from '../../images/ole-penta.mp4'
-import zeus from '../../images/schultz-zeus.png'
-import viktor from '../../images/viktor-despair.png'
-import peaky from '../../images/peaky-blinders.png'
-import plan from '../../images/the-plan.png'
+import penta from '../../images/ole-penta.mp4';
+import zeus from '../../images/schultz-zeus.png';
+import viktor from '../../images/viktor-despair.png';
+import peaky from '../../images/peaky-blinders.png';
+import plan from '../../images/the-plan.png';
 
 const MemoryTable = () => {
 
